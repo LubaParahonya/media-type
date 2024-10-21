@@ -1,0 +1,26 @@
+.team {
+    padding-top: 30px;
+    min-width: 1024px;
+}
+
+.team__container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.team__item {
+    width: 360px;
+}
+
+@media(min-width: 1024px){
+    .team__container {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 1023px){
+    .team__content {
+        background-color: rgb(40, 137, 109);
+        
+    }
+}
